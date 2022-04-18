@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Pokemon</title>
+  <link rel="stylesheet" href="../css/stilos.css">
+</head>
+
+<body>
+  <h1>API Pokemon con fetch()</h1>
+  <nav class="links"></nav>
+  <main class="grid-fluid"></main>
+
+  <!-- Estos scripts hacen el mismo consumo a la pokeAPI pero en doferentes tecnicas. -->
+  <!-- <script src="../js/fetch-async-uno-poke.js"></script> -->
+  <script src="../js/fetch-Async-dos-poke.js"></script>
+  <!--<script src="../js/fetch-then-poke.js"></script>-->
+  <script>
+
+    console.log("Pruebas de Scope")
+    let numero = 6;
+    console.log(numero);
+
+    function aumenta() {
+      let numero = 9;
+      numero += 1;
+      console.log(numero);
+    }
+    aumenta()
+    console.log(numero);
+
+  </script>
+</body>
+
+</html>
